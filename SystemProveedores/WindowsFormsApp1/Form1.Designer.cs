@@ -80,7 +80,7 @@
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(135, 30);
             this.toolStripMenuItem2.Text = "Proveedores";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+
             // 
             // agregarProveedorToolStripMenuItem
             // 
@@ -135,7 +135,7 @@
             this.facturasToolStripMenuItem.Name = "facturasToolStripMenuItem";
             this.facturasToolStripMenuItem.Size = new System.Drawing.Size(103, 27);
             this.facturasToolStripMenuItem.Text = "Compras";
-            this.facturasToolStripMenuItem.Click += new System.EventHandler(this.facturasToolStripMenuItem_Click);
+
             // 
             // ordenesDeComprasToolStripMenuItem
             // 
@@ -163,7 +163,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Cerrar Sesión";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+           
             // 
             // toolStripSeparator1
             // 

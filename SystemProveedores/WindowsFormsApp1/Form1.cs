@@ -18,17 +18,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
             
         }
-
-        private void toolStripMenuItem2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void facturasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
+     
         private void ordenesDeComprasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form NewCompra = new NuevaOrdenDeCompra();
@@ -65,20 +55,6 @@ namespace WindowsFormsApp1
             Form HistCompras = new HistorialCompras();
             HistCompras.ShowDialog();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            
-        }
+      
     }
 }
