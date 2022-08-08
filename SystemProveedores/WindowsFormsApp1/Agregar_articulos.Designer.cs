@@ -83,7 +83,12 @@
             // 
             this.categoria.FormattingEnabled = true;
             this.categoria.Items.AddRange(new object[] {
-            "Comida"});
+            "Comida",
+            "Bebida",
+            "Limpieza",
+            "Miscelaneos",
+            "Embutidos",
+            "Verduras"});
             this.categoria.Location = new System.Drawing.Point(146, 185);
             this.categoria.Name = "categoria";
             this.categoria.Size = new System.Drawing.Size(197, 28);
