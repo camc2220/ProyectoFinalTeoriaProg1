@@ -116,11 +116,11 @@
     <Compile Include="Listado_de_articulos.Designer.cs">
       <DependentUpon>Listado_de_articulos.cs</DependentUpon>
     </Compile>
-    <Compile Include="NuevaOrdenDeCompra.cs">
+    <Compile Include="Nueva Orden De Compra.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NuevaOrdenDeCompra.Designer.cs">
-      <DependentUpon>NuevaOrdenDeCompra.cs</DependentUpon>
+    <Compile Include="Nueva Orden De Compra.Designer.cs">
+      <DependentUpon>Nueva Orden De Compra.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -146,8 +146,8 @@
     <EmbeddedResource Include="Listado_de_articulos.resx">
       <DependentUpon>Listado_de_articulos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NuevaOrdenDeCompra.resx">
-      <DependentUpon>NuevaOrdenDeCompra.cs</DependentUpon>
+    <EmbeddedResource Include="Nueva Orden De Compra.resx">
+      <DependentUpon>Nueva Orden De Compra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

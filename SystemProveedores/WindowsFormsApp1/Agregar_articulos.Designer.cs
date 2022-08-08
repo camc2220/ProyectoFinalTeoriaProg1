@@ -107,7 +107,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(327, 36);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Agregar Nuevo Articulo";
+            this.label4.Text = "Agregar Nuevo Artículo";
             // 
             // Agregar_articulos
             // 
@@ -123,7 +123,7 @@
             this.Controls.Add(this.nombre);
             this.Controls.Add(this.label1);
             this.Name = "Agregar_articulos";
-            this.Text = "Agregar articulos";
+            this.Text = "Agregar artículos";
             this.ResumeLayout(false);
             this.PerformLayout();
 

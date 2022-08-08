@@ -122,7 +122,7 @@
             this.ClientSize = new System.Drawing.Size(375, 254);
             this.Controls.Add(this.panel1);
             this.Name = "IniciarSesion";
-            this.Text = "IniciarSesion";
+            this.Text = "Iniciar Sesion";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
