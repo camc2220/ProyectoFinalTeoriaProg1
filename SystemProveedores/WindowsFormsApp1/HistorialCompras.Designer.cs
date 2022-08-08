@@ -49,6 +49,7 @@
             this.ClientSize = new System.Drawing.Size(538, 449);
             this.Controls.Add(this.historialDeCompras);
             this.Name = "HistorialCompras";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Historial Compras";
             this.Load += new System.EventHandler(this.HistorialCompras_Load);
             ((System.ComponentModel.ISupportInitialize)(this.historialDeCompras)).EndInit();

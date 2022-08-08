@@ -110,8 +110,10 @@
             // 
             // NuevaOrdenDeCompra
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(438, 385);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
@@ -121,7 +123,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.articulo);
             this.Controls.Add(this.proveedor);
+            this.ForeColor = System.Drawing.SystemColors.Desktop;
             this.Name = "NuevaOrdenDeCompra";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NuevaOrdenDeCompra";
             this.Load += new System.EventHandler(this.NuevaOrdenDeCompra_Load);
             this.ResumeLayout(false);

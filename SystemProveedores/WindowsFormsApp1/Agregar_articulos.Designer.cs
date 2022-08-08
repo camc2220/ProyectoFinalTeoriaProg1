@@ -102,17 +102,19 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label4.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(97, 43);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(327, 36);
+            this.label4.Size = new System.Drawing.Size(317, 36);
             this.label4.TabIndex = 8;
             this.label4.Text = "Agregar Nuevo Artículo";
             // 
             // Agregar_articulos
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(508, 418);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
@@ -123,6 +125,7 @@
             this.Controls.Add(this.nombre);
             this.Controls.Add(this.label1);
             this.Name = "Agregar_articulos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Agregar artículos";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -49,6 +49,7 @@
             this.ClientSize = new System.Drawing.Size(819, 449);
             this.Controls.Add(this.ListaProveedores);
             this.Name = "Lista_de_proveedores";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de proveedores";
             this.Load += new System.EventHandler(this.Lista_de_proveedores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ListaProveedores)).EndInit();

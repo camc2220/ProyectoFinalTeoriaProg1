@@ -49,6 +49,7 @@
             this.ClientSize = new System.Drawing.Size(666, 449);
             this.Controls.Add(this.ListaArticulos);
             this.Name = "Listado_de_articulos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Listado de artículos";
             this.Load += new System.EventHandler(this.Listado_de_articulos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ListaArticulos)).EndInit();
